@@ -10,15 +10,15 @@ Based on siamese network, different convolution blocks for change detection.
 
 Details can be found in these papers:
 
-* [Unet: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
-* [Attention U-Net: Learning Where to Look for the Pancreas](https://arxiv.org/abs/1804.03999)
+* [FULLY CONVOLUTIONAL SIAMESE NETWORKS FOR CHANGE DETECTION](https://arxiv.org/pdf/1810.08462.pdf)
 
-## Attention U-Net extra module
+## Siamese Architecture
 
 ![AU-Net](Images/aunet.png)
 
 
 ## Requirements
+File environment.yaml
 * Python 3.6
 * CUDA 10.0
 * TensorFlow 1.9
@@ -28,6 +28,7 @@ Details can be found in these papers:
 ## Modules
 utils.py and helper.py 
 functions for preprocessing data and saving it.
+
 
 
 ## Training model:
